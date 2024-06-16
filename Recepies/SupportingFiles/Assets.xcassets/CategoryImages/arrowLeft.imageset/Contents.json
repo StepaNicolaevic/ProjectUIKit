@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "icons_hardware_ic_keyboard_backspace_48px.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

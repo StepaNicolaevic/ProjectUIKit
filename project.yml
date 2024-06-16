@@ -1,0 +1,165 @@
+name: Recepies
+options:
+  bundleIdPrefix: com.<YOUR_NAMESPACE>
+packages:
+  MyTextField:
+    url: https://github.com/StepaNicolaevic/MyTextField
+    majorVersion: 2.0.0
+  Swinject:
+    url: https://github.com/Swinject/Swinject.git
+    majorVersion: 2.8.0
+  GoogleMaps:
+    url: https://github.com/googlemaps/ios-maps-sdk.git
+    majorVersion: 8.4.0
+targets:
+  Recepies:
+    type: application
+    platform: iOS
+    deploymentTarget: "15.0"
+    sources:
+      - Recepies
+    settings:
+        base:
+            SWIFT_VERSION: 5.0
+            CURRENT_PROJECT_VERSION: 1.0.0
+            MARKETING_VERSION: 1
+            IPHONEOS_DEPLOYMENT_TARGET: "16.1"
+            ENABLE_USER_SCRIPT_SANDBOXING: false
+            
+            INFOPLIST_KEY_UILaunchScreen_Generation: true
+
+            ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS: true
+            ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: true
+            GENERATE_INFOPLIST_FILE: true
+    dependencies:
+      - package: Swinject
+      - package: MyTextField
+      - package: GoogleMaps
+    preBuildScripts:
+      - script: |
+                if [[ "$(uname -m)" == arm64 ]]; then
+                     export PATH="/opt/homebrew/bin:$PATH"
+                fi
+                if which swiftgen > /dev/null; then
+                    swiftgen
+                else
+                    echo "warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it."
+                fi
+        name: SwiftGen
+        basedOnDependencyAnalysis: false
+        showEnvVars: false
+    postCompileScripts:
+      - script: |
+                if [[ "$(uname -m)" == arm64 ]]; then
+                    export PATH="/opt/homebrew/bin:$PATH"
+                fi
+
+                if which swiftlint > /dev/null; then
+                    swiftlint
+                else
+                    echo "warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint"
+                    exit 1
+                fi
+        name: SwiftLint
+        basedOnDependencyAnalysis: false
+        showEnvVars: false
+      - script: |
+                if [[ "$(uname -m)" == arm64 ]]; then
+                    export PATH="/opt/homebrew/bin:$PATH"
+                fi
+
+                if which swiftformat > /dev/null; then
+                    swiftformat .
+                else
+                    echo "warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat"
+                    exit 1
+                fi
+        name: SwiftFormat
+        basedOnDependencyAnalysis: false
+        showEnvVars: false
+  Recepies-Mock:
+    type: application
+    platform: iOS
+    deploymentTarget: "15.0"
+    sources:
+      - Recepies
+    settings:
+        base:
+            SWIFT_VERSION: 5.0
+            CURRENT_PROJECT_VERSION: 1.0.0
+            MARKETING_VERSION: 1
+            IPHONEOS_DEPLOYMENT_TARGET: "16.1"
+            ENABLE_USER_SCRIPT_SANDBOXING: false
+            
+            INFOPLIST_KEY_UILaunchScreen_Generation: true
+
+            ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS: true
+            ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: true
+            GENERATE_INFOPLIST_FILE: true
+            
+            OTHER_SWIFT_FLAGS: "-D Mock"
+    dependencies:
+      - package: MyTextField
+      - package: Swinject
+    preBuildScripts:
+      - script: |
+                if [[ "$(uname -m)" == arm64 ]]; then
+                     export PATH="/opt/homebrew/bin:$PATH"
+                fi
+                if which swiftgen > /dev/null; then
+                    swiftgen
+                else
+                    echo "warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it."
+                fi
+        name: SwiftGen
+        basedOnDependencyAnalysis: false
+        showEnvVars: false
+    postCompileScripts:
+      - script: |
+                if [[ "$(uname -m)" == arm64 ]]; then
+                    export PATH="/opt/homebrew/bin:$PATH"
+                fi
+
+                if which swiftlint > /dev/null; then
+                    swiftlint
+                else
+                    echo "warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint"
+                    exit 1
+                fi
+        name: SwiftLint
+        basedOnDependencyAnalysis: false
+        showEnvVars: false
+      - script: |
+                if [[ "$(uname -m)" == arm64 ]]; then
+                    export PATH="/opt/homebrew/bin:$PATH"
+                fi
+
+                if which swiftformat > /dev/null; then
+                    swiftformat .
+                else
+                    echo "warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat"
+                    exit 1
+                fi
+        name: SwiftFormat
+        basedOnDependencyAnalysis: false
+        showEnvVars: false
+  RecepiesTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - RecepiesTests
+    dependencies:
+      - target: Recepies
+    settings:
+        base:
+            GENERATE_INFOPLIST_FILE: YES
+  RecepiesUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - RecepiesUITests
+    dependencies:
+      - target: Recepies
+    settings:
+        base:
+            GENERATE_INFOPLIST_FILE: YES

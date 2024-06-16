@@ -1,0 +1,313 @@
+{
+    "from": 1,
+    "to": 20,
+    "count": 10000,
+    "_links": {
+        "next": {
+            "href": "https://api.edamam.com/api/recipes/v2?q=Chicken%20&app_key=7e02a24790f9c127571b1a3bad7028d5&field=uri&field=label&field=image&field=totalTime&field=calories&dishType=Main%20course&_cont=CHcVQBtNNQphDmgVQntAEX4BYkt6DAoERGBIC2YaY1J3AQoFUXlSAGNGNgdwBAoFEGYRBmoUawQhDVdSSzBCBmRAZQB0BFcVLnlSVSBMPkd5BgNK&imageSize=THUMBNAIL&type=public&app_id=cb462440",
+            "title": "Next page"
+        }
+    },
+    "hits": [
+        {
+            "recipe": {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_8275bb28647abcedef0baaf2dcf34f8b",
+                "label": "11111",
+                "image": "https://edamam-product-images.s3.amazonaws.com/web-img/e12/e12b8c5581226d7639168f41d126f2ff.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLWVhc3QtMSJGMEQCICBymrN3meJuWkNJcN0PfJVf%2B%2FXk3SeYfnhfecOiQSP4AiAIdj0pytmgQD4VVJ3xpTuxS02qpgD%2Fkmmjx072T49N1Sq4BQhJEAAaDDE4NzAxNzE1MDk4NiIML2JdlXZBVV9n3BnHKpUFbqxGDFF1VR%2Bzs8%2B6HWhGSB6sZvjbrBHg%2FvgJa5PcPb%2Bv%2B0Tx5O5ty5gy8McIJ8eV1FMNpuCTvochTCUHIs6i%2BCz%2BhxehuGBMlrMI%2B28owre4%2BAuwznVjHG7zffHsW6OgYq1zoygWsxs75uIyiYaG5jjVD7czqJo72T2psww%2FzZbBmEUOKoHHJqEJGUsoP7XxeQvRU4gSrF9SHKLeIpLYAwrPHC%2FTX2RzPbvZuIl3lNryu295HXx2Lb%2Bua38zXpgAXYpLVhMJK1DUyNX09fQ6lMMiqAk3ein6MKk26npN0SXArQcWyCYpUO3HR7owAxzgJQwaZNHMlwhjmjt7bwEg5nnbUgisc1DWe5P%2Bn5mpFrCW3mTWW3rp37yhawjIBAMbVqztWcg3wzMhyUzKxBNwI5igH%2FDlc5%2FM1eQlSIESp8DtNJ2QYYQIZDpT4xhNC5t2AONN9LS7mUbYAjPawvvO%2FSpJaHgFLpIML8JPbuD5peS%2FHjxp%2FS6grZ%2BLTy4JHpVw7HoilTDJy0%2BSqbA8d0NHLg%2B3WOKyZ1A4wqQTMmj6rp1vQb%2F4VBPMhi7wPtC4gK9pAhUTxy5d3l%2BZ1QtLoa5xLwf7lEieku1lTaStUNWHiTnWZBAZ5x5WjP%2BJYtalw31J5OzgawHAE1tPMPVaxc8ZYkd36V4Piy2S1Clm0W%2BU%2B0aN7mb8PsMQKcfhSrUVKVYizOMIH%2FRYmSGjNPvbYznOPJt5fGvJ8RzaTzoPbN2WnHshByo6F0aqpk5Gem2q%2FABwzitui9dxR01CeJ6LH9aw%2FrZ%2BsnrSKH6%2FQ%2BquieNIHqGJS64kB2vslYR9krJW0Mm2XrRKtumpp56vW%2BDDIrZm1vH8RBHYDtPjgz8AH3XErn0Y8xuHJTCdvquwBjqyAS9oyYyqt907k%2BAX%2BC%2BYkb%2BdFiiwm7TedBjdPeHL7htK1zI8HezNKwUtnSPAtRIlwt2ZO7iNIjzpUitdfSZg47FM%2BPdbamAAAUnuY5uu%2FMRcIXpbVojjyq0%2FS4ZaeGurqlgqWRs4OKKbspGeN%2Ft0fsIudqFrbACPnKkFcn7NRlq8s2OvSUUZhP5X5cJO6Us6ZPRVpa4COjXGuUTL6mWNLY7daYNAruow4Aw1hSKr4bPuoHg%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240401T174021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3599&X-Amz-Credential=ASIASXCYXIIFEZ2XTZ6T%2F20240401%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=cb74f195e79e23fa381c913c4a08b4077239bec1bcfb8e50339657155a47e7c0",
+                "calories": 3038.9512500008163,
+                "totalTime": 0.0
+            },
+            "_links": {
+                "self": {
+                    "title": "Self",
+                    "href": "https://api.edamam.com/api/recipes/v2/8275bb28647abcedef0baaf2dcf34f8b?type=public&app_id=cb462440&app_key=7e02a24790f9c127571b1a3bad7028d5"
+                }
+            }
+        },
+        {
+            "recipe": {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_7bf4a371c6884d809682a72808da7dc2",
+                "label": "Teriyaki Chicken",
+                "image": "https://edamam-product-images.s3.amazonaws.com/web-img/262/262b4353ca25074178ead2a07cdf7dc1.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLWVhc3QtMSJGMEQCICBymrN3meJuWkNJcN0PfJVf%2B%2FXk3SeYfnhfecOiQSP4AiAIdj0pytmgQD4VVJ3xpTuxS02qpgD%2Fkmmjx072T49N1Sq4BQhJEAAaDDE4NzAxNzE1MDk4NiIML2JdlXZBVV9n3BnHKpUFbqxGDFF1VR%2Bzs8%2B6HWhGSB6sZvjbrBHg%2FvgJa5PcPb%2Bv%2B0Tx5O5ty5gy8McIJ8eV1FMNpuCTvochTCUHIs6i%2BCz%2BhxehuGBMlrMI%2B28owre4%2BAuwznVjHG7zffHsW6OgYq1zoygWsxs75uIyiYaG5jjVD7czqJo72T2psww%2FzZbBmEUOKoHHJqEJGUsoP7XxeQvRU4gSrF9SHKLeIpLYAwrPHC%2FTX2RzPbvZuIl3lNryu295HXx2Lb%2Bua38zXpgAXYpLVhMJK1DUyNX09fQ6lMMiqAk3ein6MKk26npN0SXArQcWyCYpUO3HR7owAxzgJQwaZNHMlwhjmjt7bwEg5nnbUgisc1DWe5P%2Bn5mpFrCW3mTWW3rp37yhawjIBAMbVqztWcg3wzMhyUzKxBNwI5igH%2FDlc5%2FM1eQlSIESp8DtNJ2QYYQIZDpT4xhNC5t2AONN9LS7mUbYAjPawvvO%2FSpJaHgFLpIML8JPbuD5peS%2FHjxp%2FS6grZ%2BLTy4JHpVw7HoilTDJy0%2BSqbA8d0NHLg%2B3WOKyZ1A4wqQTMmj6rp1vQb%2F4VBPMhi7wPtC4gK9pAhUTxy5d3l%2BZ1QtLoa5xLwf7lEieku1lTaStUNWHiTnWZBAZ5x5WjP%2BJYtalw31J5OzgawHAE1tPMPVaxc8ZYkd36V4Piy2S1Clm0W%2BU%2B0aN7mb8PsMQKcfhSrUVKVYizOMIH%2FRYmSGjNPvbYznOPJt5fGvJ8RzaTzoPbN2WnHshByo6F0aqpk5Gem2q%2FABwzitui9dxR01CeJ6LH9aw%2FrZ%2BsnrSKH6%2FQ%2BquieNIHqGJS64kB2vslYR9krJW0Mm2XrRKtumpp56vW%2BDDIrZm1vH8RBHYDtPjgz8AH3XErn0Y8xuHJTCdvquwBjqyAS9oyYyqt907k%2BAX%2BC%2BYkb%2BdFiiwm7TedBjdPeHL7htK1zI8HezNKwUtnSPAtRIlwt2ZO7iNIjzpUitdfSZg47FM%2BPdbamAAAUnuY5uu%2FMRcIXpbVojjyq0%2FS4ZaeGurqlgqWRs4OKKbspGeN%2Ft0fsIudqFrbACPnKkFcn7NRlq8s2OvSUUZhP5X5cJO6Us6ZPRVpa4COjXGuUTL6mWNLY7daYNAruow4Aw1hSKr4bPuoHg%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240401T174021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFEZ2XTZ6T%2F20240401%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=493a895e70e105f2acf40f9e2faeb7ee627ab2387ae9ce3037e29cac8efda898",
+                "calories": 2253.101981306866,
+                "totalTime": 0.0
+            },
+            "_links": {
+                "self": {
+                    "title": "Self",
+                    "href": "https://api.edamam.com/api/recipes/v2/7bf4a371c6884d809682a72808da7dc2?type=public&app_id=cb462440&app_key=7e02a24790f9c127571b1a3bad7028d5"
+                }
+            }
+        },
+        {
+            "recipe": {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_3da1169eb633a5e4607890ebf7dee89f",
+                "label": "Grilled Butterflied Chicken Recipe",
+                "image": "https://edamam-product-images.s3.amazonaws.com/web-img/7a2/7a2f41a7891e8a8f8a087a96930c6463.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLWVhc3QtMSJGMEQCICBymrN3meJuWkNJcN0PfJVf%2B%2FXk3SeYfnhfecOiQSP4AiAIdj0pytmgQD4VVJ3xpTuxS02qpgD%2Fkmmjx072T49N1Sq4BQhJEAAaDDE4NzAxNzE1MDk4NiIML2JdlXZBVV9n3BnHKpUFbqxGDFF1VR%2Bzs8%2B6HWhGSB6sZvjbrBHg%2FvgJa5PcPb%2Bv%2B0Tx5O5ty5gy8McIJ8eV1FMNpuCTvochTCUHIs6i%2BCz%2BhxehuGBMlrMI%2B28owre4%2BAuwznVjHG7zffHsW6OgYq1zoygWsxs75uIyiYaG5jjVD7czqJo72T2psww%2FzZbBmEUOKoHHJqEJGUsoP7XxeQvRU4gSrF9SHKLeIpLYAwrPHC%2FTX2RzPbvZuIl3lNryu295HXx2Lb%2Bua38zXpgAXYpLVhMJK1DUyNX09fQ6lMMiqAk3ein6MKk26npN0SXArQcWyCYpUO3HR7owAxzgJQwaZNHMlwhjmjt7bwEg5nnbUgisc1DWe5P%2Bn5mpFrCW3mTWW3rp37yhawjIBAMbVqztWcg3wzMhyUzKxBNwI5igH%2FDlc5%2FM1eQlSIESp8DtNJ2QYYQIZDpT4xhNC5t2AONN9LS7mUbYAjPawvvO%2FSpJaHgFLpIML8JPbuD5peS%2FHjxp%2FS6grZ%2BLTy4JHpVw7HoilTDJy0%2BSqbA8d0NHLg%2B3WOKyZ1A4wqQTMmj6rp1vQb%2F4VBPMhi7wPtC4gK9pAhUTxy5d3l%2BZ1QtLoa5xLwf7lEieku1lTaStUNWHiTnWZBAZ5x5WjP%2BJYtalw31J5OzgawHAE1tPMPVaxc8ZYkd36V4Piy2S1Clm0W%2BU%2B0aN7mb8PsMQKcfhSrUVKVYizOMIH%2FRYmSGjNPvbYznOPJt5fGvJ8RzaTzoPbN2WnHshByo6F0aqpk5Gem2q%2FABwzitui9dxR01CeJ6LH9aw%2FrZ%2BsnrSKH6%2FQ%2BquieNIHqGJS64kB2vslYR9krJW0Mm2XrRKtumpp56vW%2BDDIrZm1vH8RBHYDtPjgz8AH3XErn0Y8xuHJTCdvquwBjqyAS9oyYyqt907k%2BAX%2BC%2BYkb%2BdFiiwm7TedBjdPeHL7htK1zI8HezNKwUtnSPAtRIlwt2ZO7iNIjzpUitdfSZg47FM%2BPdbamAAAUnuY5uu%2FMRcIXpbVojjyq0%2FS4ZaeGurqlgqWRs4OKKbspGeN%2Ft0fsIudqFrbACPnKkFcn7NRlq8s2OvSUUZhP5X5cJO6Us6ZPRVpa4COjXGuUTL6mWNLY7daYNAruow4Aw1hSKr4bPuoHg%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240401T174021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFEZ2XTZ6T%2F20240401%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fc2b05e7ee4632c129b449036729a160551e518620a95aeaa4cec7a680e14272",
+                "calories": 2499.628483072875,
+                "totalTime": 60.0
+            },
+            "_links": {
+                "self": {
+                    "title": "Self",
+                    "href": "https://api.edamam.com/api/recipes/v2/3da1169eb633a5e4607890ebf7dee89f?type=public&app_id=cb462440&app_key=7e02a24790f9c127571b1a3bad7028d5"
+                }
+            }
+        },
+        {
+            "recipe": {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_50c72c3f5038466b80014a6d09a1996d",
+                "label": "peasant chicken",
+                "image": "https://edamam-product-images.s3.amazonaws.com/web-img/d7a/d7aadde1ff6875e8d46f46c692691d73.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLWVhc3QtMSJGMEQCICBymrN3meJuWkNJcN0PfJVf%2B%2FXk3SeYfnhfecOiQSP4AiAIdj0pytmgQD4VVJ3xpTuxS02qpgD%2Fkmmjx072T49N1Sq4BQhJEAAaDDE4NzAxNzE1MDk4NiIML2JdlXZBVV9n3BnHKpUFbqxGDFF1VR%2Bzs8%2B6HWhGSB6sZvjbrBHg%2FvgJa5PcPb%2Bv%2B0Tx5O5ty5gy8McIJ8eV1FMNpuCTvochTCUHIs6i%2BCz%2BhxehuGBMlrMI%2B28owre4%2BAuwznVjHG7zffHsW6OgYq1zoygWsxs75uIyiYaG5jjVD7czqJo72T2psww%2FzZbBmEUOKoHHJqEJGUsoP7XxeQvRU4gSrF9SHKLeIpLYAwrPHC%2FTX2RzPbvZuIl3lNryu295HXx2Lb%2Bua38zXpgAXYpLVhMJK1DUyNX09fQ6lMMiqAk3ein6MKk26npN0SXArQcWyCYpUO3HR7owAxzgJQwaZNHMlwhjmjt7bwEg5nnbUgisc1DWe5P%2Bn5mpFrCW3mTWW3rp37yhawjIBAMbVqztWcg3wzMhyUzKxBNwI5igH%2FDlc5%2FM1eQlSIESp8DtNJ2QYYQIZDpT4xhNC5t2AONN9LS7mUbYAjPawvvO%2FSpJaHgFLpIML8JPbuD5peS%2FHjxp%2FS6grZ%2BLTy4JHpVw7HoilTDJy0%2BSqbA8d0NHLg%2B3WOKyZ1A4wqQTMmj6rp1vQb%2F4VBPMhi7wPtC4gK9pAhUTxy5d3l%2BZ1QtLoa5xLwf7lEieku1lTaStUNWHiTnWZBAZ5x5WjP%2BJYtalw31J5OzgawHAE1tPMPVaxc8ZYkd36V4Piy2S1Clm0W%2BU%2B0aN7mb8PsMQKcfhSrUVKVYizOMIH%2FRYmSGjNPvbYznOPJt5fGvJ8RzaTzoPbN2WnHshByo6F0aqpk5Gem2q%2FABwzitui9dxR01CeJ6LH9aw%2FrZ%2BsnrSKH6%2FQ%2BquieNIHqGJS64kB2vslYR9krJW0Mm2XrRKtumpp56vW%2BDDIrZm1vH8RBHYDtPjgz8AH3XErn0Y8xuHJTCdvquwBjqyAS9oyYyqt907k%2BAX%2BC%2BYkb%2BdFiiwm7TedBjdPeHL7htK1zI8HezNKwUtnSPAtRIlwt2ZO7iNIjzpUitdfSZg47FM%2BPdbamAAAUnuY5uu%2FMRcIXpbVojjyq0%2FS4ZaeGurqlgqWRs4OKKbspGeN%2Ft0fsIudqFrbACPnKkFcn7NRlq8s2OvSUUZhP5X5cJO6Us6ZPRVpa4COjXGuUTL6mWNLY7daYNAruow4Aw1hSKr4bPuoHg%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240401T174021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFEZ2XTZ6T%2F20240401%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=426678063095af291c14e537761fd3114de4c9cb1f3ada772ea53c49a0d3d77c",
+                "calories": 3053.885,
+                "totalTime": 0.0
+            },
+            "_links": {
+                "self": {
+                    "title": "Self",
+                    "href": "https://api.edamam.com/api/recipes/v2/50c72c3f5038466b80014a6d09a1996d?type=public&app_id=cb462440&app_key=7e02a24790f9c127571b1a3bad7028d5"
+                }
+            }
+        },
+        {
+            "recipe": {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_2fd7b723ad76418ba917eada104b8b7a",
+                "label": "Brick Chicken",
+                "image": "https://edamam-product-images.s3.amazonaws.com/web-img/259/259d3ad79284faceabeb7c8e675d53eb.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLWVhc3QtMSJGMEQCICBymrN3meJuWkNJcN0PfJVf%2B%2FXk3SeYfnhfecOiQSP4AiAIdj0pytmgQD4VVJ3xpTuxS02qpgD%2Fkmmjx072T49N1Sq4BQhJEAAaDDE4NzAxNzE1MDk4NiIML2JdlXZBVV9n3BnHKpUFbqxGDFF1VR%2Bzs8%2B6HWhGSB6sZvjbrBHg%2FvgJa5PcPb%2Bv%2B0Tx5O5ty5gy8McIJ8eV1FMNpuCTvochTCUHIs6i%2BCz%2BhxehuGBMlrMI%2B28owre4%2BAuwznVjHG7zffHsW6OgYq1zoygWsxs75uIyiYaG5jjVD7czqJo72T2psww%2FzZbBmEUOKoHHJqEJGUsoP7XxeQvRU4gSrF9SHKLeIpLYAwrPHC%2FTX2RzPbvZuIl3lNryu295HXx2Lb%2Bua38zXpgAXYpLVhMJK1DUyNX09fQ6lMMiqAk3ein6MKk26npN0SXArQcWyCYpUO3HR7owAxzgJQwaZNHMlwhjmjt7bwEg5nnbUgisc1DWe5P%2Bn5mpFrCW3mTWW3rp37yhawjIBAMbVqztWcg3wzMhyUzKxBNwI5igH%2FDlc5%2FM1eQlSIESp8DtNJ2QYYQIZDpT4xhNC5t2AONN9LS7mUbYAjPawvvO%2FSpJaHgFLpIML8JPbuD5peS%2FHjxp%2FS6grZ%2BLTy4JHpVw7HoilTDJy0%2BSqbA8d0NHLg%2B3WOKyZ1A4wqQTMmj6rp1vQb%2F4VBPMhi7wPtC4gK9pAhUTxy5d3l%2BZ1QtLoa5xLwf7lEieku1lTaStUNWHiTnWZBAZ5x5WjP%2BJYtalw31J5OzgawHAE1tPMPVaxc8ZYkd36V4Piy2S1Clm0W%2BU%2B0aN7mb8PsMQKcfhSrUVKVYizOMIH%2FRYmSGjNPvbYznOPJt5fGvJ8RzaTzoPbN2WnHshByo6F0aqpk5Gem2q%2FABwzitui9dxR01CeJ6LH9aw%2FrZ%2BsnrSKH6%2FQ%2BquieNIHqGJS64kB2vslYR9krJW0Mm2XrRKtumpp56vW%2BDDIrZm1vH8RBHYDtPjgz8AH3XErn0Y8xuHJTCdvquwBjqyAS9oyYyqt907k%2BAX%2BC%2BYkb%2BdFiiwm7TedBjdPeHL7htK1zI8HezNKwUtnSPAtRIlwt2ZO7iNIjzpUitdfSZg47FM%2BPdbamAAAUnuY5uu%2FMRcIXpbVojjyq0%2FS4ZaeGurqlgqWRs4OKKbspGeN%2Ft0fsIudqFrbACPnKkFcn7NRlq8s2OvSUUZhP5X5cJO6Us6ZPRVpa4COjXGuUTL6mWNLY7daYNAruow4Aw1hSKr4bPuoHg%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240401T174021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFEZ2XTZ6T%2F20240401%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=9368ffc073edaaa3f29ddddb71564741e772b1c6950c30927cc13404d4211c42",
+                "calories": 2946.8734544443414,
+                "totalTime": 0.0
+            },
+            "_links": {
+                "self": {
+                    "title": "Self",
+                    "href": "https://api.edamam.com/api/recipes/v2/2fd7b723ad76418ba917eada104b8b7a?type=public&app_id=cb462440&app_key=7e02a24790f9c127571b1a3bad7028d5"
+                }
+            }
+        },
+        {
+            "recipe": {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_fe0e159a4374192c5848f6276b9643fa",
+                "label": "Chicken Tonnato",
+                "image": "https://edamam-product-images.s3.amazonaws.com/web-img/99e/99e834e92bef3dffb6df1c3bb1fa3cdb?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLWVhc3QtMSJGMEQCICBymrN3meJuWkNJcN0PfJVf%2B%2FXk3SeYfnhfecOiQSP4AiAIdj0pytmgQD4VVJ3xpTuxS02qpgD%2Fkmmjx072T49N1Sq4BQhJEAAaDDE4NzAxNzE1MDk4NiIML2JdlXZBVV9n3BnHKpUFbqxGDFF1VR%2Bzs8%2B6HWhGSB6sZvjbrBHg%2FvgJa5PcPb%2Bv%2B0Tx5O5ty5gy8McIJ8eV1FMNpuCTvochTCUHIs6i%2BCz%2BhxehuGBMlrMI%2B28owre4%2BAuwznVjHG7zffHsW6OgYq1zoygWsxs75uIyiYaG5jjVD7czqJo72T2psww%2FzZbBmEUOKoHHJqEJGUsoP7XxeQvRU4gSrF9SHKLeIpLYAwrPHC%2FTX2RzPbvZuIl3lNryu295HXx2Lb%2Bua38zXpgAXYpLVhMJK1DUyNX09fQ6lMMiqAk3ein6MKk26npN0SXArQcWyCYpUO3HR7owAxzgJQwaZNHMlwhjmjt7bwEg5nnbUgisc1DWe5P%2Bn5mpFrCW3mTWW3rp37yhawjIBAMbVqztWcg3wzMhyUzKxBNwI5igH%2FDlc5%2FM1eQlSIESp8DtNJ2QYYQIZDpT4xhNC5t2AONN9LS7mUbYAjPawvvO%2FSpJaHgFLpIML8JPbuD5peS%2FHjxp%2FS6grZ%2BLTy4JHpVw7HoilTDJy0%2BSqbA8d0NHLg%2B3WOKyZ1A4wqQTMmj6rp1vQb%2F4VBPMhi7wPtC4gK9pAhUTxy5d3l%2BZ1QtLoa5xLwf7lEieku1lTaStUNWHiTnWZBAZ5x5WjP%2BJYtalw31J5OzgawHAE1tPMPVaxc8ZYkd36V4Piy2S1Clm0W%2BU%2B0aN7mb8PsMQKcfhSrUVKVYizOMIH%2FRYmSGjNPvbYznOPJt5fGvJ8RzaTzoPbN2WnHshByo6F0aqpk5Gem2q%2FABwzitui9dxR01CeJ6LH9aw%2FrZ%2BsnrSKH6%2FQ%2BquieNIHqGJS64kB2vslYR9krJW0Mm2XrRKtumpp56vW%2BDDIrZm1vH8RBHYDtPjgz8AH3XErn0Y8xuHJTCdvquwBjqyAS9oyYyqt907k%2BAX%2BC%2BYkb%2BdFiiwm7TedBjdPeHL7htK1zI8HezNKwUtnSPAtRIlwt2ZO7iNIjzpUitdfSZg47FM%2BPdbamAAAUnuY5uu%2FMRcIXpbVojjyq0%2FS4ZaeGurqlgqWRs4OKKbspGeN%2Ft0fsIudqFrbACPnKkFcn7NRlq8s2OvSUUZhP5X5cJO6Us6ZPRVpa4COjXGuUTL6mWNLY7daYNAruow4Aw1hSKr4bPuoHg%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240401T174021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFEZ2XTZ6T%2F20240401%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=e04da473c3e36c9d2d0ddfa4e0681a052e478148ae3f8be62d6b8837ae95278b",
+                "calories": 935.806266,
+                "totalTime": 0.0
+            },
+            "_links": {
+                "self": {
+                    "title": "Self",
+                    "href": "https://api.edamam.com/api/recipes/v2/fe0e159a4374192c5848f6276b9643fa?type=public&app_id=cb462440&app_key=7e02a24790f9c127571b1a3bad7028d5"
+                }
+            }
+        },
+        {
+            "recipe": {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_72a3b66afe35edd2f162d02d991d0645",
+                "label": "Chicken & sweetcorn ramen",
+                "image": "https://edamam-product-images.s3.amazonaws.com/web-img/c5d/c5d4a486b92c53bb3e0a9ef42b5f8f30.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLWVhc3QtMSJGMEQCICBymrN3meJuWkNJcN0PfJVf%2B%2FXk3SeYfnhfecOiQSP4AiAIdj0pytmgQD4VVJ3xpTuxS02qpgD%2Fkmmjx072T49N1Sq4BQhJEAAaDDE4NzAxNzE1MDk4NiIML2JdlXZBVV9n3BnHKpUFbqxGDFF1VR%2Bzs8%2B6HWhGSB6sZvjbrBHg%2FvgJa5PcPb%2Bv%2B0Tx5O5ty5gy8McIJ8eV1FMNpuCTvochTCUHIs6i%2BCz%2BhxehuGBMlrMI%2B28owre4%2BAuwznVjHG7zffHsW6OgYq1zoygWsxs75uIyiYaG5jjVD7czqJo72T2psww%2FzZbBmEUOKoHHJqEJGUsoP7XxeQvRU4gSrF9SHKLeIpLYAwrPHC%2FTX2RzPbvZuIl3lNryu295HXx2Lb%2Bua38zXpgAXYpLVhMJK1DUyNX09fQ6lMMiqAk3ein6MKk26npN0SXArQcWyCYpUO3HR7owAxzgJQwaZNHMlwhjmjt7bwEg5nnbUgisc1DWe5P%2Bn5mpFrCW3mTWW3rp37yhawjIBAMbVqztWcg3wzMhyUzKxBNwI5igH%2FDlc5%2FM1eQlSIESp8DtNJ2QYYQIZDpT4xhNC5t2AONN9LS7mUbYAjPawvvO%2FSpJaHgFLpIML8JPbuD5peS%2FHjxp%2FS6grZ%2BLTy4JHpVw7HoilTDJy0%2BSqbA8d0NHLg%2B3WOKyZ1A4wqQTMmj6rp1vQb%2F4VBPMhi7wPtC4gK9pAhUTxy5d3l%2BZ1QtLoa5xLwf7lEieku1lTaStUNWHiTnWZBAZ5x5WjP%2BJYtalw31J5OzgawHAE1tPMPVaxc8ZYkd36V4Piy2S1Clm0W%2BU%2B0aN7mb8PsMQKcfhSrUVKVYizOMIH%2FRYmSGjNPvbYznOPJt5fGvJ8RzaTzoPbN2WnHshByo6F0aqpk5Gem2q%2FABwzitui9dxR01CeJ6LH9aw%2FrZ%2BsnrSKH6%2FQ%2BquieNIHqGJS64kB2vslYR9krJW0Mm2XrRKtumpp56vW%2BDDIrZm1vH8RBHYDtPjgz8AH3XErn0Y8xuHJTCdvquwBjqyAS9oyYyqt907k%2BAX%2BC%2BYkb%2BdFiiwm7TedBjdPeHL7htK1zI8HezNKwUtnSPAtRIlwt2ZO7iNIjzpUitdfSZg47FM%2BPdbamAAAUnuY5uu%2FMRcIXpbVojjyq0%2FS4ZaeGurqlgqWRs4OKKbspGeN%2Ft0fsIudqFrbACPnKkFcn7NRlq8s2OvSUUZhP5X5cJO6Us6ZPRVpa4COjXGuUTL6mWNLY7daYNAruow4Aw1hSKr4bPuoHg%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240401T174021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFEZ2XTZ6T%2F20240401%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=bc633e8263e7c8b3df295790c7f007849a1755ae0227eb72dfe1f5ea5a1dc0da",
+                "calories": 824.7271102828566,
+                "totalTime": 10.0
+            },
+            "_links": {
+                "self": {
+                    "title": "Self",
+                    "href": "https://api.edamam.com/api/recipes/v2/72a3b66afe35edd2f162d02d991d0645?type=public&app_id=cb462440&app_key=7e02a24790f9c127571b1a3bad7028d5"
+                }
+            }
+        },
+        {
+            "recipe": {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_01208d9fc02a4cabbbad21c03493d233",
+                "label": "Chicken Vesuvio Recipe",
+                "image": "https://edamam-product-images.s3.amazonaws.com/web-img/24b/24bc38d88c6e63542213606deb27e339.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLWVhc3QtMSJGMEQCICBymrN3meJuWkNJcN0PfJVf%2B%2FXk3SeYfnhfecOiQSP4AiAIdj0pytmgQD4VVJ3xpTuxS02qpgD%2Fkmmjx072T49N1Sq4BQhJEAAaDDE4NzAxNzE1MDk4NiIML2JdlXZBVV9n3BnHKpUFbqxGDFF1VR%2Bzs8%2B6HWhGSB6sZvjbrBHg%2FvgJa5PcPb%2Bv%2B0Tx5O5ty5gy8McIJ8eV1FMNpuCTvochTCUHIs6i%2BCz%2BhxehuGBMlrMI%2B28owre4%2BAuwznVjHG7zffHsW6OgYq1zoygWsxs75uIyiYaG5jjVD7czqJo72T2psww%2FzZbBmEUOKoHHJqEJGUsoP7XxeQvRU4gSrF9SHKLeIpLYAwrPHC%2FTX2RzPbvZuIl3lNryu295HXx2Lb%2Bua38zXpgAXYpLVhMJK1DUyNX09fQ6lMMiqAk3ein6MKk26npN0SXArQcWyCYpUO3HR7owAxzgJQwaZNHMlwhjmjt7bwEg5nnbUgisc1DWe5P%2Bn5mpFrCW3mTWW3rp37yhawjIBAMbVqztWcg3wzMhyUzKxBNwI5igH%2FDlc5%2FM1eQlSIESp8DtNJ2QYYQIZDpT4xhNC5t2AONN9LS7mUbYAjPawvvO%2FSpJaHgFLpIML8JPbuD5peS%2FHjxp%2FS6grZ%2BLTy4JHpVw7HoilTDJy0%2BSqbA8d0NHLg%2B3WOKyZ1A4wqQTMmj6rp1vQb%2F4VBPMhi7wPtC4gK9pAhUTxy5d3l%2BZ1QtLoa5xLwf7lEieku1lTaStUNWHiTnWZBAZ5x5WjP%2BJYtalw31J5OzgawHAE1tPMPVaxc8ZYkd36V4Piy2S1Clm0W%2BU%2B0aN7mb8PsMQKcfhSrUVKVYizOMIH%2FRYmSGjNPvbYznOPJt5fGvJ8RzaTzoPbN2WnHshByo6F0aqpk5Gem2q%2FABwzitui9dxR01CeJ6LH9aw%2FrZ%2BsnrSKH6%2FQ%2BquieNIHqGJS64kB2vslYR9krJW0Mm2XrRKtumpp56vW%2BDDIrZm1vH8RBHYDtPjgz8AH3XErn0Y8xuHJTCdvquwBjqyAS9oyYyqt907k%2BAX%2BC%2BYkb%2BdFiiwm7TedBjdPeHL7htK1zI8HezNKwUtnSPAtRIlwt2ZO7iNIjzpUitdfSZg47FM%2BPdbamAAAUnuY5uu%2FMRcIXpbVojjyq0%2FS4ZaeGurqlgqWRs4OKKbspGeN%2Ft0fsIudqFrbACPnKkFcn7NRlq8s2OvSUUZhP5X5cJO6Us6ZPRVpa4COjXGuUTL6mWNLY7daYNAruow4Aw1hSKr4bPuoHg%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240401T174021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFEZ2XTZ6T%2F20240401%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=3d5e06d413eb7ad284c4921b04dbbbe053f0062d9ac47893bd27defc25da060b",
+                "calories": 4228.043058200812,
+                "totalTime": 60.0
+            },
+            "_links": {
+                "self": {
+                    "title": "Self",
+                    "href": "https://api.edamam.com/api/recipes/v2/01208d9fc02a4cabbbad21c03493d233?type=public&app_id=cb462440&app_key=7e02a24790f9c127571b1a3bad7028d5"
+                }
+            }
+        },
+        {
+            "recipe": {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_0a3f49a3da07cd8379d4e35f7a1a72fc",
+                "label": "Chicken Teriyaki",
+                "image": "https://edamam-product-images.s3.amazonaws.com/web-img/827/8275cc33e9f0f4314617d5a356900aa7.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLWVhc3QtMSJGMEQCICBymrN3meJuWkNJcN0PfJVf%2B%2FXk3SeYfnhfecOiQSP4AiAIdj0pytmgQD4VVJ3xpTuxS02qpgD%2Fkmmjx072T49N1Sq4BQhJEAAaDDE4NzAxNzE1MDk4NiIML2JdlXZBVV9n3BnHKpUFbqxGDFF1VR%2Bzs8%2B6HWhGSB6sZvjbrBHg%2FvgJa5PcPb%2Bv%2B0Tx5O5ty5gy8McIJ8eV1FMNpuCTvochTCUHIs6i%2BCz%2BhxehuGBMlrMI%2B28owre4%2BAuwznVjHG7zffHsW6OgYq1zoygWsxs75uIyiYaG5jjVD7czqJo72T2psww%2FzZbBmEUOKoHHJqEJGUsoP7XxeQvRU4gSrF9SHKLeIpLYAwrPHC%2FTX2RzPbvZuIl3lNryu295HXx2Lb%2Bua38zXpgAXYpLVhMJK1DUyNX09fQ6lMMiqAk3ein6MKk26npN0SXArQcWyCYpUO3HR7owAxzgJQwaZNHMlwhjmjt7bwEg5nnbUgisc1DWe5P%2Bn5mpFrCW3mTWW3rp37yhawjIBAMbVqztWcg3wzMhyUzKxBNwI5igH%2FDlc5%2FM1eQlSIESp8DtNJ2QYYQIZDpT4xhNC5t2AONN9LS7mUbYAjPawvvO%2FSpJaHgFLpIML8JPbuD5peS%2FHjxp%2FS6grZ%2BLTy4JHpVw7HoilTDJy0%2BSqbA8d0NHLg%2B3WOKyZ1A4wqQTMmj6rp1vQb%2F4VBPMhi7wPtC4gK9pAhUTxy5d3l%2BZ1QtLoa5xLwf7lEieku1lTaStUNWHiTnWZBAZ5x5WjP%2BJYtalw31J5OzgawHAE1tPMPVaxc8ZYkd36V4Piy2S1Clm0W%2BU%2B0aN7mb8PsMQKcfhSrUVKVYizOMIH%2FRYmSGjNPvbYznOPJt5fGvJ8RzaTzoPbN2WnHshByo6F0aqpk5Gem2q%2FABwzitui9dxR01CeJ6LH9aw%2FrZ%2BsnrSKH6%2FQ%2BquieNIHqGJS64kB2vslYR9krJW0Mm2XrRKtumpp56vW%2BDDIrZm1vH8RBHYDtPjgz8AH3XErn0Y8xuHJTCdvquwBjqyAS9oyYyqt907k%2BAX%2BC%2BYkb%2BdFiiwm7TedBjdPeHL7htK1zI8HezNKwUtnSPAtRIlwt2ZO7iNIjzpUitdfSZg47FM%2BPdbamAAAUnuY5uu%2FMRcIXpbVojjyq0%2FS4ZaeGurqlgqWRs4OKKbspGeN%2Ft0fsIudqFrbACPnKkFcn7NRlq8s2OvSUUZhP5X5cJO6Us6ZPRVpa4COjXGuUTL6mWNLY7daYNAruow4Aw1hSKr4bPuoHg%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240401T174021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFEZ2XTZ6T%2F20240401%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=18d502317cd04a057cfd9296964f8b9dcb8bcc566bd8271548ab80d8ec509745",
+                "calories": 2441.112999997517,
+                "totalTime": 0.0
+            },
+            "_links": {
+                "self": {
+                    "title": "Self",
+                    "href": "https://api.edamam.com/api/recipes/v2/0a3f49a3da07cd8379d4e35f7a1a72fc?type=public&app_id=cb462440&app_key=7e02a24790f9c127571b1a3bad7028d5"
+                }
+            }
+        },
+        {
+            "recipe": {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_be3ba087e212f13672b553ecfa876333",
+                "label": "Baked Chicken",
+                "image": "https://edamam-product-images.s3.amazonaws.com/web-img/01c/01cacb70890274fb7b7cebb975a93231.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLWVhc3QtMSJGMEQCICBymrN3meJuWkNJcN0PfJVf%2B%2FXk3SeYfnhfecOiQSP4AiAIdj0pytmgQD4VVJ3xpTuxS02qpgD%2Fkmmjx072T49N1Sq4BQhJEAAaDDE4NzAxNzE1MDk4NiIML2JdlXZBVV9n3BnHKpUFbqxGDFF1VR%2Bzs8%2B6HWhGSB6sZvjbrBHg%2FvgJa5PcPb%2Bv%2B0Tx5O5ty5gy8McIJ8eV1FMNpuCTvochTCUHIs6i%2BCz%2BhxehuGBMlrMI%2B28owre4%2BAuwznVjHG7zffHsW6OgYq1zoygWsxs75uIyiYaG5jjVD7czqJo72T2psww%2FzZbBmEUOKoHHJqEJGUsoP7XxeQvRU4gSrF9SHKLeIpLYAwrPHC%2FTX2RzPbvZuIl3lNryu295HXx2Lb%2Bua38zXpgAXYpLVhMJK1DUyNX09fQ6lMMiqAk3ein6MKk26npN0SXArQcWyCYpUO3HR7owAxzgJQwaZNHMlwhjmjt7bwEg5nnbUgisc1DWe5P%2Bn5mpFrCW3mTWW3rp37yhawjIBAMbVqztWcg3wzMhyUzKxBNwI5igH%2FDlc5%2FM1eQlSIESp8DtNJ2QYYQIZDpT4xhNC5t2AONN9LS7mUbYAjPawvvO%2FSpJaHgFLpIML8JPbuD5peS%2FHjxp%2FS6grZ%2BLTy4JHpVw7HoilTDJy0%2BSqbA8d0NHLg%2B3WOKyZ1A4wqQTMmj6rp1vQb%2F4VBPMhi7wPtC4gK9pAhUTxy5d3l%2BZ1QtLoa5xLwf7lEieku1lTaStUNWHiTnWZBAZ5x5WjP%2BJYtalw31J5OzgawHAE1tPMPVaxc8ZYkd36V4Piy2S1Clm0W%2BU%2B0aN7mb8PsMQKcfhSrUVKVYizOMIH%2FRYmSGjNPvbYznOPJt5fGvJ8RzaTzoPbN2WnHshByo6F0aqpk5Gem2q%2FABwzitui9dxR01CeJ6LH9aw%2FrZ%2BsnrSKH6%2FQ%2BquieNIHqGJS64kB2vslYR9krJW0Mm2XrRKtumpp56vW%2BDDIrZm1vH8RBHYDtPjgz8AH3XErn0Y8xuHJTCdvquwBjqyAS9oyYyqt907k%2BAX%2BC%2BYkb%2BdFiiwm7TedBjdPeHL7htK1zI8HezNKwUtnSPAtRIlwt2ZO7iNIjzpUitdfSZg47FM%2BPdbamAAAUnuY5uu%2FMRcIXpbVojjyq0%2FS4ZaeGurqlgqWRs4OKKbspGeN%2Ft0fsIudqFrbACPnKkFcn7NRlq8s2OvSUUZhP5X5cJO6Us6ZPRVpa4COjXGuUTL6mWNLY7daYNAruow4Aw1hSKr4bPuoHg%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240401T174021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFEZ2XTZ6T%2F20240401%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=40587d22ec36edf2cda569dc4f2a6d9bc2c384a99222c0a05bea1b90f02cd530",
+                "calories": 630.14575,
+                "totalTime": 0.0
+            },
+            "_links": {
+                "self": {
+                    "title": "Self",
+                    "href": "https://api.edamam.com/api/recipes/v2/be3ba087e212f13672b553ecfa876333?type=public&app_id=cb462440&app_key=7e02a24790f9c127571b1a3bad7028d5"
+                }
+            }
+        },
+        {
+            "recipe": {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_d826fe0365784a32acadbba9e7675c80",
+                "label": "Coronation Chicken",
+                "image": "https://edamam-product-images.s3.amazonaws.com/web-img/6c7/6c7a492e1f07087ac2f90f4adff3305f.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLWVhc3QtMSJGMEQCICBymrN3meJuWkNJcN0PfJVf%2B%2FXk3SeYfnhfecOiQSP4AiAIdj0pytmgQD4VVJ3xpTuxS02qpgD%2Fkmmjx072T49N1Sq4BQhJEAAaDDE4NzAxNzE1MDk4NiIML2JdlXZBVV9n3BnHKpUFbqxGDFF1VR%2Bzs8%2B6HWhGSB6sZvjbrBHg%2FvgJa5PcPb%2Bv%2B0Tx5O5ty5gy8McIJ8eV1FMNpuCTvochTCUHIs6i%2BCz%2BhxehuGBMlrMI%2B28owre4%2BAuwznVjHG7zffHsW6OgYq1zoygWsxs75uIyiYaG5jjVD7czqJo72T2psww%2FzZbBmEUOKoHHJqEJGUsoP7XxeQvRU4gSrF9SHKLeIpLYAwrPHC%2FTX2RzPbvZuIl3lNryu295HXx2Lb%2Bua38zXpgAXYpLVhMJK1DUyNX09fQ6lMMiqAk3ein6MKk26npN0SXArQcWyCYpUO3HR7owAxzgJQwaZNHMlwhjmjt7bwEg5nnbUgisc1DWe5P%2Bn5mpFrCW3mTWW3rp37yhawjIBAMbVqztWcg3wzMhyUzKxBNwI5igH%2FDlc5%2FM1eQlSIESp8DtNJ2QYYQIZDpT4xhNC5t2AONN9LS7mUbYAjPawvvO%2FSpJaHgFLpIML8JPbuD5peS%2FHjxp%2FS6grZ%2BLTy4JHpVw7HoilTDJy0%2BSqbA8d0NHLg%2B3WOKyZ1A4wqQTMmj6rp1vQb%2F4VBPMhi7wPtC4gK9pAhUTxy5d3l%2BZ1QtLoa5xLwf7lEieku1lTaStUNWHiTnWZBAZ5x5WjP%2BJYtalw31J5OzgawHAE1tPMPVaxc8ZYkd36V4Piy2S1Clm0W%2BU%2B0aN7mb8PsMQKcfhSrUVKVYizOMIH%2FRYmSGjNPvbYznOPJt5fGvJ8RzaTzoPbN2WnHshByo6F0aqpk5Gem2q%2FABwzitui9dxR01CeJ6LH9aw%2FrZ%2BsnrSKH6%2FQ%2BquieNIHqGJS64kB2vslYR9krJW0Mm2XrRKtumpp56vW%2BDDIrZm1vH8RBHYDtPjgz8AH3XErn0Y8xuHJTCdvquwBjqyAS9oyYyqt907k%2BAX%2BC%2BYkb%2BdFiiwm7TedBjdPeHL7htK1zI8HezNKwUtnSPAtRIlwt2ZO7iNIjzpUitdfSZg47FM%2BPdbamAAAUnuY5uu%2FMRcIXpbVojjyq0%2FS4ZaeGurqlgqWRs4OKKbspGeN%2Ft0fsIudqFrbACPnKkFcn7NRlq8s2OvSUUZhP5X5cJO6Us6ZPRVpa4COjXGuUTL6mWNLY7daYNAruow4Aw1hSKr4bPuoHg%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240401T174021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFEZ2XTZ6T%2F20240401%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5c3d00c82c2ac1030471e994772a4bbc3f8df09ded38984917dc57e341ff7100",
+                "calories": 1010.9099999995316,
+                "totalTime": 0.0
+            },
+            "_links": {
+                "self": {
+                    "title": "Self",
+                    "href": "https://api.edamam.com/api/recipes/v2/d826fe0365784a32acadbba9e7675c80?type=public&app_id=cb462440&app_key=7e02a24790f9c127571b1a3bad7028d5"
+                }
+            }
+        },
+        {
+            "recipe": {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_888e9fc4a808e9e4ccdb2ac24a6a2f46",
+                "label": "Chicken Teriyaki",
+                "image": "https://edamam-product-images.s3.amazonaws.com/web-img/551/551b906bafd4c45d50033742eaf00c02.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLWVhc3QtMSJGMEQCICBymrN3meJuWkNJcN0PfJVf%2B%2FXk3SeYfnhfecOiQSP4AiAIdj0pytmgQD4VVJ3xpTuxS02qpgD%2Fkmmjx072T49N1Sq4BQhJEAAaDDE4NzAxNzE1MDk4NiIML2JdlXZBVV9n3BnHKpUFbqxGDFF1VR%2Bzs8%2B6HWhGSB6sZvjbrBHg%2FvgJa5PcPb%2Bv%2B0Tx5O5ty5gy8McIJ8eV1FMNpuCTvochTCUHIs6i%2BCz%2BhxehuGBMlrMI%2B28owre4%2BAuwznVjHG7zffHsW6OgYq1zoygWsxs75uIyiYaG5jjVD7czqJo72T2psww%2FzZbBmEUOKoHHJqEJGUsoP7XxeQvRU4gSrF9SHKLeIpLYAwrPHC%2FTX2RzPbvZuIl3lNryu295HXx2Lb%2Bua38zXpgAXYpLVhMJK1DUyNX09fQ6lMMiqAk3ein6MKk26npN0SXArQcWyCYpUO3HR7owAxzgJQwaZNHMlwhjmjt7bwEg5nnbUgisc1DWe5P%2Bn5mpFrCW3mTWW3rp37yhawjIBAMbVqztWcg3wzMhyUzKxBNwI5igH%2FDlc5%2FM1eQlSIESp8DtNJ2QYYQIZDpT4xhNC5t2AONN9LS7mUbYAjPawvvO%2FSpJaHgFLpIML8JPbuD5peS%2FHjxp%2FS6grZ%2BLTy4JHpVw7HoilTDJy0%2BSqbA8d0NHLg%2B3WOKyZ1A4wqQTMmj6rp1vQb%2F4VBPMhi7wPtC4gK9pAhUTxy5d3l%2BZ1QtLoa5xLwf7lEieku1lTaStUNWHiTnWZBAZ5x5WjP%2BJYtalw31J5OzgawHAE1tPMPVaxc8ZYkd36V4Piy2S1Clm0W%2BU%2B0aN7mb8PsMQKcfhSrUVKVYizOMIH%2FRYmSGjNPvbYznOPJt5fGvJ8RzaTzoPbN2WnHshByo6F0aqpk5Gem2q%2FABwzitui9dxR01CeJ6LH9aw%2FrZ%2BsnrSKH6%2FQ%2BquieNIHqGJS64kB2vslYR9krJW0Mm2XrRKtumpp56vW%2BDDIrZm1vH8RBHYDtPjgz8AH3XErn0Y8xuHJTCdvquwBjqyAS9oyYyqt907k%2BAX%2BC%2BYkb%2BdFiiwm7TedBjdPeHL7htK1zI8HezNKwUtnSPAtRIlwt2ZO7iNIjzpUitdfSZg47FM%2BPdbamAAAUnuY5uu%2FMRcIXpbVojjyq0%2FS4ZaeGurqlgqWRs4OKKbspGeN%2Ft0fsIudqFrbACPnKkFcn7NRlq8s2OvSUUZhP5X5cJO6Us6ZPRVpa4COjXGuUTL6mWNLY7daYNAruow4Aw1hSKr4bPuoHg%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240401T174021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFEZ2XTZ6T%2F20240401%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=0e260d14dfd2524cc4055625aadbbe375d3f76ff39c4a593d215b3d9ae0dc3a1",
+                "calories": 1020.7600000000001,
+                "totalTime": 0.0
+            },
+            "_links": {
+                "self": {
+                    "title": "Self",
+                    "href": "https://api.edamam.com/api/recipes/v2/888e9fc4a808e9e4ccdb2ac24a6a2f46?type=public&app_id=cb462440&app_key=7e02a24790f9c127571b1a3bad7028d5"
+                }
+            }
+        },
+        {
+            "recipe": {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_a82b682a3e6b4b5aaa72989d4e12f875",
+                "label": "Ultimate chicken kievs",
+                "image": "https://edamam-product-images.s3.amazonaws.com/web-img/f86/f86388c0836c23cc3b5c1727dc9c4601.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLWVhc3QtMSJGMEQCICBymrN3meJuWkNJcN0PfJVf%2B%2FXk3SeYfnhfecOiQSP4AiAIdj0pytmgQD4VVJ3xpTuxS02qpgD%2Fkmmjx072T49N1Sq4BQhJEAAaDDE4NzAxNzE1MDk4NiIML2JdlXZBVV9n3BnHKpUFbqxGDFF1VR%2Bzs8%2B6HWhGSB6sZvjbrBHg%2FvgJa5PcPb%2Bv%2B0Tx5O5ty5gy8McIJ8eV1FMNpuCTvochTCUHIs6i%2BCz%2BhxehuGBMlrMI%2B28owre4%2BAuwznVjHG7zffHsW6OgYq1zoygWsxs75uIyiYaG5jjVD7czqJo72T2psww%2FzZbBmEUOKoHHJqEJGUsoP7XxeQvRU4gSrF9SHKLeIpLYAwrPHC%2FTX2RzPbvZuIl3lNryu295HXx2Lb%2Bua38zXpgAXYpLVhMJK1DUyNX09fQ6lMMiqAk3ein6MKk26npN0SXArQcWyCYpUO3HR7owAxzgJQwaZNHMlwhjmjt7bwEg5nnbUgisc1DWe5P%2Bn5mpFrCW3mTWW3rp37yhawjIBAMbVqztWcg3wzMhyUzKxBNwI5igH%2FDlc5%2FM1eQlSIESp8DtNJ2QYYQIZDpT4xhNC5t2AONN9LS7mUbYAjPawvvO%2FSpJaHgFLpIML8JPbuD5peS%2FHjxp%2FS6grZ%2BLTy4JHpVw7HoilTDJy0%2BSqbA8d0NHLg%2B3WOKyZ1A4wqQTMmj6rp1vQb%2F4VBPMhi7wPtC4gK9pAhUTxy5d3l%2BZ1QtLoa5xLwf7lEieku1lTaStUNWHiTnWZBAZ5x5WjP%2BJYtalw31J5OzgawHAE1tPMPVaxc8ZYkd36V4Piy2S1Clm0W%2BU%2B0aN7mb8PsMQKcfhSrUVKVYizOMIH%2FRYmSGjNPvbYznOPJt5fGvJ8RzaTzoPbN2WnHshByo6F0aqpk5Gem2q%2FABwzitui9dxR01CeJ6LH9aw%2FrZ%2BsnrSKH6%2FQ%2BquieNIHqGJS64kB2vslYR9krJW0Mm2XrRKtumpp56vW%2BDDIrZm1vH8RBHYDtPjgz8AH3XErn0Y8xuHJTCdvquwBjqyAS9oyYyqt907k%2BAX%2BC%2BYkb%2BdFiiwm7TedBjdPeHL7htK1zI8HezNKwUtnSPAtRIlwt2ZO7iNIjzpUitdfSZg47FM%2BPdbamAAAUnuY5uu%2FMRcIXpbVojjyq0%2FS4ZaeGurqlgqWRs4OKKbspGeN%2Ft0fsIudqFrbACPnKkFcn7NRlq8s2OvSUUZhP5X5cJO6Us6ZPRVpa4COjXGuUTL6mWNLY7daYNAruow4Aw1hSKr4bPuoHg%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240401T174021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFEZ2XTZ6T%2F20240401%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=2af0330803bfbdc538905e4a41c8ada8e9fe7752678e8fb92f4c4ddc985c8f13",
+                "calories": 3435.3600000000006,
+                "totalTime": 30.0
+            },
+            "_links": {
+                "self": {
+                    "title": "Self",
+                    "href": "https://api.edamam.com/api/recipes/v2/a82b682a3e6b4b5aaa72989d4e12f875?type=public&app_id=cb462440&app_key=7e02a24790f9c127571b1a3bad7028d5"
+                }
+            }
+        },
+        {
+            "recipe": {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_c455834e081d4b98aecccf0f2a723ffd",
+                "label": "Grilled Butterflied Chicken Recipe",
+                "image": "https://edamam-product-images.s3.amazonaws.com/web-img/df9/df93bb1513572ca10cd56f1ce063f62f.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLWVhc3QtMSJGMEQCICBymrN3meJuWkNJcN0PfJVf%2B%2FXk3SeYfnhfecOiQSP4AiAIdj0pytmgQD4VVJ3xpTuxS02qpgD%2Fkmmjx072T49N1Sq4BQhJEAAaDDE4NzAxNzE1MDk4NiIML2JdlXZBVV9n3BnHKpUFbqxGDFF1VR%2Bzs8%2B6HWhGSB6sZvjbrBHg%2FvgJa5PcPb%2Bv%2B0Tx5O5ty5gy8McIJ8eV1FMNpuCTvochTCUHIs6i%2BCz%2BhxehuGBMlrMI%2B28owre4%2BAuwznVjHG7zffHsW6OgYq1zoygWsxs75uIyiYaG5jjVD7czqJo72T2psww%2FzZbBmEUOKoHHJqEJGUsoP7XxeQvRU4gSrF9SHKLeIpLYAwrPHC%2FTX2RzPbvZuIl3lNryu295HXx2Lb%2Bua38zXpgAXYpLVhMJK1DUyNX09fQ6lMMiqAk3ein6MKk26npN0SXArQcWyCYpUO3HR7owAxzgJQwaZNHMlwhjmjt7bwEg5nnbUgisc1DWe5P%2Bn5mpFrCW3mTWW3rp37yhawjIBAMbVqztWcg3wzMhyUzKxBNwI5igH%2FDlc5%2FM1eQlSIESp8DtNJ2QYYQIZDpT4xhNC5t2AONN9LS7mUbYAjPawvvO%2FSpJaHgFLpIML8JPbuD5peS%2FHjxp%2FS6grZ%2BLTy4JHpVw7HoilTDJy0%2BSqbA8d0NHLg%2B3WOKyZ1A4wqQTMmj6rp1vQb%2F4VBPMhi7wPtC4gK9pAhUTxy5d3l%2BZ1QtLoa5xLwf7lEieku1lTaStUNWHiTnWZBAZ5x5WjP%2BJYtalw31J5OzgawHAE1tPMPVaxc8ZYkd36V4Piy2S1Clm0W%2BU%2B0aN7mb8PsMQKcfhSrUVKVYizOMIH%2FRYmSGjNPvbYznOPJt5fGvJ8RzaTzoPbN2WnHshByo6F0aqpk5Gem2q%2FABwzitui9dxR01CeJ6LH9aw%2FrZ%2BsnrSKH6%2FQ%2BquieNIHqGJS64kB2vslYR9krJW0Mm2XrRKtumpp56vW%2BDDIrZm1vH8RBHYDtPjgz8AH3XErn0Y8xuHJTCdvquwBjqyAS9oyYyqt907k%2BAX%2BC%2BYkb%2BdFiiwm7TedBjdPeHL7htK1zI8HezNKwUtnSPAtRIlwt2ZO7iNIjzpUitdfSZg47FM%2BPdbamAAAUnuY5uu%2FMRcIXpbVojjyq0%2FS4ZaeGurqlgqWRs4OKKbspGeN%2Ft0fsIudqFrbACPnKkFcn7NRlq8s2OvSUUZhP5X5cJO6Us6ZPRVpa4COjXGuUTL6mWNLY7daYNAruow4Aw1hSKr4bPuoHg%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240401T174021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFEZ2XTZ6T%2F20240401%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c2f7a35471442650f8d78bca90b1ea1558c884d0e6cac2edae48d73f4e622bd9",
+                "calories": 2499.628483072875,
+                "totalTime": 60.0
+            },
+            "_links": {
+                "self": {
+                    "title": "Self",
+                    "href": "https://api.edamam.com/api/recipes/v2/c455834e081d4b98aecccf0f2a723ffd?type=public&app_id=cb462440&app_key=7e02a24790f9c127571b1a3bad7028d5"
+                }
+            }
+        },
+        {
+            "recipe": {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_0451f452fca5efd88e527734dbbc4185",
+                "label": "Baked Buttermilk Chicken",
+                "image": "https://edamam-product-images.s3.amazonaws.com/web-img/882/882b6f8187d6d71eb6e68701d785c9d0?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLWVhc3QtMSJGMEQCICBymrN3meJuWkNJcN0PfJVf%2B%2FXk3SeYfnhfecOiQSP4AiAIdj0pytmgQD4VVJ3xpTuxS02qpgD%2Fkmmjx072T49N1Sq4BQhJEAAaDDE4NzAxNzE1MDk4NiIML2JdlXZBVV9n3BnHKpUFbqxGDFF1VR%2Bzs8%2B6HWhGSB6sZvjbrBHg%2FvgJa5PcPb%2Bv%2B0Tx5O5ty5gy8McIJ8eV1FMNpuCTvochTCUHIs6i%2BCz%2BhxehuGBMlrMI%2B28owre4%2BAuwznVjHG7zffHsW6OgYq1zoygWsxs75uIyiYaG5jjVD7czqJo72T2psww%2FzZbBmEUOKoHHJqEJGUsoP7XxeQvRU4gSrF9SHKLeIpLYAwrPHC%2FTX2RzPbvZuIl3lNryu295HXx2Lb%2Bua38zXpgAXYpLVhMJK1DUyNX09fQ6lMMiqAk3ein6MKk26npN0SXArQcWyCYpUO3HR7owAxzgJQwaZNHMlwhjmjt7bwEg5nnbUgisc1DWe5P%2Bn5mpFrCW3mTWW3rp37yhawjIBAMbVqztWcg3wzMhyUzKxBNwI5igH%2FDlc5%2FM1eQlSIESp8DtNJ2QYYQIZDpT4xhNC5t2AONN9LS7mUbYAjPawvvO%2FSpJaHgFLpIML8JPbuD5peS%2FHjxp%2FS6grZ%2BLTy4JHpVw7HoilTDJy0%2BSqbA8d0NHLg%2B3WOKyZ1A4wqQTMmj6rp1vQb%2F4VBPMhi7wPtC4gK9pAhUTxy5d3l%2BZ1QtLoa5xLwf7lEieku1lTaStUNWHiTnWZBAZ5x5WjP%2BJYtalw31J5OzgawHAE1tPMPVaxc8ZYkd36V4Piy2S1Clm0W%2BU%2B0aN7mb8PsMQKcfhSrUVKVYizOMIH%2FRYmSGjNPvbYznOPJt5fGvJ8RzaTzoPbN2WnHshByo6F0aqpk5Gem2q%2FABwzitui9dxR01CeJ6LH9aw%2FrZ%2BsnrSKH6%2FQ%2BquieNIHqGJS64kB2vslYR9krJW0Mm2XrRKtumpp56vW%2BDDIrZm1vH8RBHYDtPjgz8AH3XErn0Y8xuHJTCdvquwBjqyAS9oyYyqt907k%2BAX%2BC%2BYkb%2BdFiiwm7TedBjdPeHL7htK1zI8HezNKwUtnSPAtRIlwt2ZO7iNIjzpUitdfSZg47FM%2BPdbamAAAUnuY5uu%2FMRcIXpbVojjyq0%2FS4ZaeGurqlgqWRs4OKKbspGeN%2Ft0fsIudqFrbACPnKkFcn7NRlq8s2OvSUUZhP5X5cJO6Us6ZPRVpa4COjXGuUTL6mWNLY7daYNAruow4Aw1hSKr4bPuoHg%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240401T174021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFEZ2XTZ6T%2F20240401%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=481cb769a69bf66e46419c21f26bdaf6c5651389c8402b764b8214c5a65f2dbf",
+                "calories": 1485.620440338,
+                "totalTime": 0.0
+            },
+            "_links": {
+                "self": {
+                    "title": "Self",
+                    "href": "https://api.edamam.com/api/recipes/v2/0451f452fca5efd88e527734dbbc4185?type=public&app_id=cb462440&app_key=7e02a24790f9c127571b1a3bad7028d5"
+                }
+            }
+        },
+        {
+            "recipe": {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_950ae5292dba403faad4551470b1d1cf",
+                "label": "Barbecued Thai chicken",
+                "image": "https://edamam-product-images.s3.amazonaws.com/web-img/fe9/fe9ce3c2e692e0226cf98002808f483e.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLWVhc3QtMSJGMEQCICBymrN3meJuWkNJcN0PfJVf%2B%2FXk3SeYfnhfecOiQSP4AiAIdj0pytmgQD4VVJ3xpTuxS02qpgD%2Fkmmjx072T49N1Sq4BQhJEAAaDDE4NzAxNzE1MDk4NiIML2JdlXZBVV9n3BnHKpUFbqxGDFF1VR%2Bzs8%2B6HWhGSB6sZvjbrBHg%2FvgJa5PcPb%2Bv%2B0Tx5O5ty5gy8McIJ8eV1FMNpuCTvochTCUHIs6i%2BCz%2BhxehuGBMlrMI%2B28owre4%2BAuwznVjHG7zffHsW6OgYq1zoygWsxs75uIyiYaG5jjVD7czqJo72T2psww%2FzZbBmEUOKoHHJqEJGUsoP7XxeQvRU4gSrF9SHKLeIpLYAwrPHC%2FTX2RzPbvZuIl3lNryu295HXx2Lb%2Bua38zXpgAXYpLVhMJK1DUyNX09fQ6lMMiqAk3ein6MKk26npN0SXArQcWyCYpUO3HR7owAxzgJQwaZNHMlwhjmjt7bwEg5nnbUgisc1DWe5P%2Bn5mpFrCW3mTWW3rp37yhawjIBAMbVqztWcg3wzMhyUzKxBNwI5igH%2FDlc5%2FM1eQlSIESp8DtNJ2QYYQIZDpT4xhNC5t2AONN9LS7mUbYAjPawvvO%2FSpJaHgFLpIML8JPbuD5peS%2FHjxp%2FS6grZ%2BLTy4JHpVw7HoilTDJy0%2BSqbA8d0NHLg%2B3WOKyZ1A4wqQTMmj6rp1vQb%2F4VBPMhi7wPtC4gK9pAhUTxy5d3l%2BZ1QtLoa5xLwf7lEieku1lTaStUNWHiTnWZBAZ5x5WjP%2BJYtalw31J5OzgawHAE1tPMPVaxc8ZYkd36V4Piy2S1Clm0W%2BU%2B0aN7mb8PsMQKcfhSrUVKVYizOMIH%2FRYmSGjNPvbYznOPJt5fGvJ8RzaTzoPbN2WnHshByo6F0aqpk5Gem2q%2FABwzitui9dxR01CeJ6LH9aw%2FrZ%2BsnrSKH6%2FQ%2BquieNIHqGJS64kB2vslYR9krJW0Mm2XrRKtumpp56vW%2BDDIrZm1vH8RBHYDtPjgz8AH3XErn0Y8xuHJTCdvquwBjqyAS9oyYyqt907k%2BAX%2BC%2BYkb%2BdFiiwm7TedBjdPeHL7htK1zI8HezNKwUtnSPAtRIlwt2ZO7iNIjzpUitdfSZg47FM%2BPdbamAAAUnuY5uu%2FMRcIXpbVojjyq0%2FS4ZaeGurqlgqWRs4OKKbspGeN%2Ft0fsIudqFrbACPnKkFcn7NRlq8s2OvSUUZhP5X5cJO6Us6ZPRVpa4COjXGuUTL6mWNLY7daYNAruow4Aw1hSKr4bPuoHg%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240401T174021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFEZ2XTZ6T%2F20240401%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=ae51054cc75e62657e5b16c8e604f0dcbce10e668ee977945ae62a1377fcbd54",
+                "calories": 3264.6,
+                "totalTime": 60.0
+            },
+            "_links": {
+                "self": {
+                    "title": "Self",
+                    "href": "https://api.edamam.com/api/recipes/v2/950ae5292dba403faad4551470b1d1cf?type=public&app_id=cb462440&app_key=7e02a24790f9c127571b1a3bad7028d5"
+                }
+            }
+        },
+        {
+            "recipe": {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_0d6bfaa492fd47daa4c4b1270787d3c5",
+                "label": "Drunken Chicken Recipe",
+                "image": "https://edamam-product-images.s3.amazonaws.com/web-img/ef1/ef183dac9ae67d288829035e66dd7097.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLWVhc3QtMSJGMEQCICBymrN3meJuWkNJcN0PfJVf%2B%2FXk3SeYfnhfecOiQSP4AiAIdj0pytmgQD4VVJ3xpTuxS02qpgD%2Fkmmjx072T49N1Sq4BQhJEAAaDDE4NzAxNzE1MDk4NiIML2JdlXZBVV9n3BnHKpUFbqxGDFF1VR%2Bzs8%2B6HWhGSB6sZvjbrBHg%2FvgJa5PcPb%2Bv%2B0Tx5O5ty5gy8McIJ8eV1FMNpuCTvochTCUHIs6i%2BCz%2BhxehuGBMlrMI%2B28owre4%2BAuwznVjHG7zffHsW6OgYq1zoygWsxs75uIyiYaG5jjVD7czqJo72T2psww%2FzZbBmEUOKoHHJqEJGUsoP7XxeQvRU4gSrF9SHKLeIpLYAwrPHC%2FTX2RzPbvZuIl3lNryu295HXx2Lb%2Bua38zXpgAXYpLVhMJK1DUyNX09fQ6lMMiqAk3ein6MKk26npN0SXArQcWyCYpUO3HR7owAxzgJQwaZNHMlwhjmjt7bwEg5nnbUgisc1DWe5P%2Bn5mpFrCW3mTWW3rp37yhawjIBAMbVqztWcg3wzMhyUzKxBNwI5igH%2FDlc5%2FM1eQlSIESp8DtNJ2QYYQIZDpT4xhNC5t2AONN9LS7mUbYAjPawvvO%2FSpJaHgFLpIML8JPbuD5peS%2FHjxp%2FS6grZ%2BLTy4JHpVw7HoilTDJy0%2BSqbA8d0NHLg%2B3WOKyZ1A4wqQTMmj6rp1vQb%2F4VBPMhi7wPtC4gK9pAhUTxy5d3l%2BZ1QtLoa5xLwf7lEieku1lTaStUNWHiTnWZBAZ5x5WjP%2BJYtalw31J5OzgawHAE1tPMPVaxc8ZYkd36V4Piy2S1Clm0W%2BU%2B0aN7mb8PsMQKcfhSrUVKVYizOMIH%2FRYmSGjNPvbYznOPJt5fGvJ8RzaTzoPbN2WnHshByo6F0aqpk5Gem2q%2FABwzitui9dxR01CeJ6LH9aw%2FrZ%2BsnrSKH6%2FQ%2BquieNIHqGJS64kB2vslYR9krJW0Mm2XrRKtumpp56vW%2BDDIrZm1vH8RBHYDtPjgz8AH3XErn0Y8xuHJTCdvquwBjqyAS9oyYyqt907k%2BAX%2BC%2BYkb%2BdFiiwm7TedBjdPeHL7htK1zI8HezNKwUtnSPAtRIlwt2ZO7iNIjzpUitdfSZg47FM%2BPdbamAAAUnuY5uu%2FMRcIXpbVojjyq0%2FS4ZaeGurqlgqWRs4OKKbspGeN%2Ft0fsIudqFrbACPnKkFcn7NRlq8s2OvSUUZhP5X5cJO6Us6ZPRVpa4COjXGuUTL6mWNLY7daYNAruow4Aw1hSKr4bPuoHg%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240401T174021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFEZ2XTZ6T%2F20240401%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=51f8e5b952783d20c05d1903044b3b8ccdd8225930712d9e2696a16f457b765c",
+                "calories": 1299.412,
+                "totalTime": 1440.0
+            },
+            "_links": {
+                "self": {
+                    "title": "Self",
+                    "href": "https://api.edamam.com/api/recipes/v2/0d6bfaa492fd47daa4c4b1270787d3c5?type=public&app_id=cb462440&app_key=7e02a24790f9c127571b1a3bad7028d5"
+                }
+            }
+        },
+        {
+            "recipe": {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_4e3bf73433674686b6ad213b384c6ba6",
+                "label": "Chicken Heart Yakitori Recipe",
+                "image": "https://edamam-product-images.s3.amazonaws.com/web-img/718/71810602764c8080e69d3cfa2432aa67.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLWVhc3QtMSJGMEQCICBymrN3meJuWkNJcN0PfJVf%2B%2FXk3SeYfnhfecOiQSP4AiAIdj0pytmgQD4VVJ3xpTuxS02qpgD%2Fkmmjx072T49N1Sq4BQhJEAAaDDE4NzAxNzE1MDk4NiIML2JdlXZBVV9n3BnHKpUFbqxGDFF1VR%2Bzs8%2B6HWhGSB6sZvjbrBHg%2FvgJa5PcPb%2Bv%2B0Tx5O5ty5gy8McIJ8eV1FMNpuCTvochTCUHIs6i%2BCz%2BhxehuGBMlrMI%2B28owre4%2BAuwznVjHG7zffHsW6OgYq1zoygWsxs75uIyiYaG5jjVD7czqJo72T2psww%2FzZbBmEUOKoHHJqEJGUsoP7XxeQvRU4gSrF9SHKLeIpLYAwrPHC%2FTX2RzPbvZuIl3lNryu295HXx2Lb%2Bua38zXpgAXYpLVhMJK1DUyNX09fQ6lMMiqAk3ein6MKk26npN0SXArQcWyCYpUO3HR7owAxzgJQwaZNHMlwhjmjt7bwEg5nnbUgisc1DWe5P%2Bn5mpFrCW3mTWW3rp37yhawjIBAMbVqztWcg3wzMhyUzKxBNwI5igH%2FDlc5%2FM1eQlSIESp8DtNJ2QYYQIZDpT4xhNC5t2AONN9LS7mUbYAjPawvvO%2FSpJaHgFLpIML8JPbuD5peS%2FHjxp%2FS6grZ%2BLTy4JHpVw7HoilTDJy0%2BSqbA8d0NHLg%2B3WOKyZ1A4wqQTMmj6rp1vQb%2F4VBPMhi7wPtC4gK9pAhUTxy5d3l%2BZ1QtLoa5xLwf7lEieku1lTaStUNWHiTnWZBAZ5x5WjP%2BJYtalw31J5OzgawHAE1tPMPVaxc8ZYkd36V4Piy2S1Clm0W%2BU%2B0aN7mb8PsMQKcfhSrUVKVYizOMIH%2FRYmSGjNPvbYznOPJt5fGvJ8RzaTzoPbN2WnHshByo6F0aqpk5Gem2q%2FABwzitui9dxR01CeJ6LH9aw%2FrZ%2BsnrSKH6%2FQ%2BquieNIHqGJS64kB2vslYR9krJW0Mm2XrRKtumpp56vW%2BDDIrZm1vH8RBHYDtPjgz8AH3XErn0Y8xuHJTCdvquwBjqyAS9oyYyqt907k%2BAX%2BC%2BYkb%2BdFiiwm7TedBjdPeHL7htK1zI8HezNKwUtnSPAtRIlwt2ZO7iNIjzpUitdfSZg47FM%2BPdbamAAAUnuY5uu%2FMRcIXpbVojjyq0%2FS4ZaeGurqlgqWRs4OKKbspGeN%2Ft0fsIudqFrbACPnKkFcn7NRlq8s2OvSUUZhP5X5cJO6Us6ZPRVpa4COjXGuUTL6mWNLY7daYNAruow4Aw1hSKr4bPuoHg%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240401T174021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFEZ2XTZ6T%2F20240401%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=917a11e868c3ed746198e6370e70386a884c80f6495dc7e7431f6a1e30fae86b",
+                "calories": 4804.829369643643,
+                "totalTime": 30.0
+            },
+            "_links": {
+                "self": {
+                    "title": "Self",
+                    "href": "https://api.edamam.com/api/recipes/v2/4e3bf73433674686b6ad213b384c6ba6?type=public&app_id=cb462440&app_key=7e02a24790f9c127571b1a3bad7028d5"
+                }
+            }
+        },
+        {
+            "recipe": {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_29bbe48c767bacfcf665b2adcf20aaf2",
+                "label": "Spring Chicken Recipe",
+                "image": "https://edamam-product-images.s3.amazonaws.com/web-img/e7b/e7b20984220bc1d611a0f615f12ac66d.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLWVhc3QtMSJGMEQCICBymrN3meJuWkNJcN0PfJVf%2B%2FXk3SeYfnhfecOiQSP4AiAIdj0pytmgQD4VVJ3xpTuxS02qpgD%2Fkmmjx072T49N1Sq4BQhJEAAaDDE4NzAxNzE1MDk4NiIML2JdlXZBVV9n3BnHKpUFbqxGDFF1VR%2Bzs8%2B6HWhGSB6sZvjbrBHg%2FvgJa5PcPb%2Bv%2B0Tx5O5ty5gy8McIJ8eV1FMNpuCTvochTCUHIs6i%2BCz%2BhxehuGBMlrMI%2B28owre4%2BAuwznVjHG7zffHsW6OgYq1zoygWsxs75uIyiYaG5jjVD7czqJo72T2psww%2FzZbBmEUOKoHHJqEJGUsoP7XxeQvRU4gSrF9SHKLeIpLYAwrPHC%2FTX2RzPbvZuIl3lNryu295HXx2Lb%2Bua38zXpgAXYpLVhMJK1DUyNX09fQ6lMMiqAk3ein6MKk26npN0SXArQcWyCYpUO3HR7owAxzgJQwaZNHMlwhjmjt7bwEg5nnbUgisc1DWe5P%2Bn5mpFrCW3mTWW3rp37yhawjIBAMbVqztWcg3wzMhyUzKxBNwI5igH%2FDlc5%2FM1eQlSIESp8DtNJ2QYYQIZDpT4xhNC5t2AONN9LS7mUbYAjPawvvO%2FSpJaHgFLpIML8JPbuD5peS%2FHjxp%2FS6grZ%2BLTy4JHpVw7HoilTDJy0%2BSqbA8d0NHLg%2B3WOKyZ1A4wqQTMmj6rp1vQb%2F4VBPMhi7wPtC4gK9pAhUTxy5d3l%2BZ1QtLoa5xLwf7lEieku1lTaStUNWHiTnWZBAZ5x5WjP%2BJYtalw31J5OzgawHAE1tPMPVaxc8ZYkd36V4Piy2S1Clm0W%2BU%2B0aN7mb8PsMQKcfhSrUVKVYizOMIH%2FRYmSGjNPvbYznOPJt5fGvJ8RzaTzoPbN2WnHshByo6F0aqpk5Gem2q%2FABwzitui9dxR01CeJ6LH9aw%2FrZ%2BsnrSKH6%2FQ%2BquieNIHqGJS64kB2vslYR9krJW0Mm2XrRKtumpp56vW%2BDDIrZm1vH8RBHYDtPjgz8AH3XErn0Y8xuHJTCdvquwBjqyAS9oyYyqt907k%2BAX%2BC%2BYkb%2BdFiiwm7TedBjdPeHL7htK1zI8HezNKwUtnSPAtRIlwt2ZO7iNIjzpUitdfSZg47FM%2BPdbamAAAUnuY5uu%2FMRcIXpbVojjyq0%2FS4ZaeGurqlgqWRs4OKKbspGeN%2Ft0fsIudqFrbACPnKkFcn7NRlq8s2OvSUUZhP5X5cJO6Us6ZPRVpa4COjXGuUTL6mWNLY7daYNAruow4Aw1hSKr4bPuoHg%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240401T174021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFEZ2XTZ6T%2F20240401%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=bfb18ac565b5156e1af84fdfc09b8caa9fa3cc9dd0ef30c46039fc4513506e7e",
+                "calories": 3023.501129944318,
+                "totalTime": 0.0
+            },
+            "_links": {
+                "self": {
+                    "title": "Self",
+                    "href": "https://api.edamam.com/api/recipes/v2/29bbe48c767bacfcf665b2adcf20aaf2?type=public&app_id=cb462440&app_key=7e02a24790f9c127571b1a3bad7028d5"
+                }
+            }
+        },
+        {
+            "recipe": {
+                "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_31eeb3092c3a5878ab9de8e256c6e70d",
+                "label": "Cook the Book: Perfect Roasted Chicken",
+                "image": "https://edamam-product-images.s3.amazonaws.com/web-img/b0a/b0a263aeca77229c7b6bf8bbcd36a736.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECEaCXVzLWVhc3QtMSJGMEQCICBymrN3meJuWkNJcN0PfJVf%2B%2FXk3SeYfnhfecOiQSP4AiAIdj0pytmgQD4VVJ3xpTuxS02qpgD%2Fkmmjx072T49N1Sq4BQhJEAAaDDE4NzAxNzE1MDk4NiIML2JdlXZBVV9n3BnHKpUFbqxGDFF1VR%2Bzs8%2B6HWhGSB6sZvjbrBHg%2FvgJa5PcPb%2Bv%2B0Tx5O5ty5gy8McIJ8eV1FMNpuCTvochTCUHIs6i%2BCz%2BhxehuGBMlrMI%2B28owre4%2BAuwznVjHG7zffHsW6OgYq1zoygWsxs75uIyiYaG5jjVD7czqJo72T2psww%2FzZbBmEUOKoHHJqEJGUsoP7XxeQvRU4gSrF9SHKLeIpLYAwrPHC%2FTX2RzPbvZuIl3lNryu295HXx2Lb%2Bua38zXpgAXYpLVhMJK1DUyNX09fQ6lMMiqAk3ein6MKk26npN0SXArQcWyCYpUO3HR7owAxzgJQwaZNHMlwhjmjt7bwEg5nnbUgisc1DWe5P%2Bn5mpFrCW3mTWW3rp37yhawjIBAMbVqztWcg3wzMhyUzKxBNwI5igH%2FDlc5%2FM1eQlSIESp8DtNJ2QYYQIZDpT4xhNC5t2AONN9LS7mUbYAjPawvvO%2FSpJaHgFLpIML8JPbuD5peS%2FHjxp%2FS6grZ%2BLTy4JHpVw7HoilTDJy0%2BSqbA8d0NHLg%2B3WOKyZ1A4wqQTMmj6rp1vQb%2F4VBPMhi7wPtC4gK9pAhUTxy5d3l%2BZ1QtLoa5xLwf7lEieku1lTaStUNWHiTnWZBAZ5x5WjP%2BJYtalw31J5OzgawHAE1tPMPVaxc8ZYkd36V4Piy2S1Clm0W%2BU%2B0aN7mb8PsMQKcfhSrUVKVYizOMIH%2FRYmSGjNPvbYznOPJt5fGvJ8RzaTzoPbN2WnHshByo6F0aqpk5Gem2q%2FABwzitui9dxR01CeJ6LH9aw%2FrZ%2BsnrSKH6%2FQ%2BquieNIHqGJS64kB2vslYR9krJW0Mm2XrRKtumpp56vW%2BDDIrZm1vH8RBHYDtPjgz8AH3XErn0Y8xuHJTCdvquwBjqyAS9oyYyqt907k%2BAX%2BC%2BYkb%2BdFiiwm7TedBjdPeHL7htK1zI8HezNKwUtnSPAtRIlwt2ZO7iNIjzpUitdfSZg47FM%2BPdbamAAAUnuY5uu%2FMRcIXpbVojjyq0%2FS4ZaeGurqlgqWRs4OKKbspGeN%2Ft0fsIudqFrbACPnKkFcn7NRlq8s2OvSUUZhP5X5cJO6Us6ZPRVpa4COjXGuUTL6mWNLY7daYNAruow4Aw1hSKr4bPuoHg%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240401T174021Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFEZ2XTZ6T%2F20240401%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5e2b3853df80e8f5dab6c354c84bc2565ea19d65b63ea93f35c27150fcaf902b",
+                "calories": 2365.03215729,
+                "totalTime": 75.0
+            },
+            "_links": {
+                "self": {
+                    "title": "Self",
+                    "href": "https://api.edamam.com/api/recipes/v2/31eeb3092c3a5878ab9de8e256c6e70d?type=public&app_id=cb462440&app_key=7e02a24790f9c127571b1a3bad7028d5"
+                }
+            }
+        }
+    ]
+}

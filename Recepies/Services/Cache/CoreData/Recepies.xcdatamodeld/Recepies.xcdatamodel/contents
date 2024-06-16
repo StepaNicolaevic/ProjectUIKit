@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="22G436" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="CategoryCD" representedClassName=".CategoryCD" syncable="YES">
+        <attribute name="name" attributeType="String"/>
+        <relationship name="recipesSet" toMany="YES" deletionRule="Nullify" destinationEntity="RecipeCD" inverseName="categor" inverseEntity="RecipeCD"/>
+    </entity>
+    <entity name="RecipeCD" representedClassName=".RecipeCD" syncable="YES">
+        <attribute name="calories" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="recipeImage" attributeType="String"/>
+        <attribute name="timeToCook" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="categor" maxCount="1" deletionRule="Nullify" destinationEntity="CategoryCD" inverseName="recipesSet" inverseEntity="CategoryCD"/>
+        <relationship name="recipeDetailed" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RecipeDetailedCD" inverseName="recipe" inverseEntity="RecipeDetailedCD"/>
+    </entity>
+    <entity name="RecipeDetailedCD" representedClassName=".RecipeDetailedCD" syncable="YES">
+        <attribute name="calories" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="carbohydrates" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="fats" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="proteins" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="recipeDescription" attributeType="String"/>
+        <attribute name="recipeImage" attributeType="String"/>
+        <attribute name="timeToCook" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="weight" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="recipe" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RecipeCD" inverseName="recipeDetailed" inverseEntity="RecipeCD"/>
+    </entity>
+</model>

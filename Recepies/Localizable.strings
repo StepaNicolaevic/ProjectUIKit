@@ -1,0 +1,35 @@
+/* 
+  Localizable.strings
+  Recepies
+
+  Created by Степан Пахолков on 28.03.2024.
+  
+*/
+"authView.loginLabel.title" = "Login";
+"authView.emailLabel.title" = "Email Adress";
+"authView.emailPlaceholder.text" = "Enter Email Address";
+"authView.passwordLabel.title" = "Password";
+"authView.passwordPlaceholder.text" = "Enter Password";
+"authView.loginButton.Title" = "Login";
+"authView.warningLabel.text" = "Please check the accuracy of the entered credentials.";
+"authView.emailWarning.text" = "Incorrect format";
+"authView.passwordWarning.text" = "You entered the wrong password";
+"recipes.setTitle.text" = "Recipes";
+"categoryView.caloriesButton.title" = "Calories";
+"categoryView.timeButton.title" = "Time";
+"categoryView.searchPlaceholder.title" = "Search recipes";
+"PFCView.kkal.text" = "Enerc kcal";
+"PFCView.carbohydrates.text" = "Carbohydrates";
+"PFCView.fats.text" = "Fats";
+"PFCView.proteins.text" = "Proteins";
+"PFCView.gram.text" = " g";
+"PFCView.kCal.text" = " kcal";
+"profileView.editName.text" = "Change your name and surname";
+"profileView.showLogOut.text" = "Are you sure you want to log out?";
+"profileView.cancelAction.text" = "Cancel";
+"profileView.conformAction.text" = "OK";
+"profileView.yesAction.text" = "Yes";
+"profileView.textFieldPlaceholder.text" = "Name Surname";
+"profileView.titleLabel.text" = "Profile";
+"profileView.galary.text" = "Выбрать из галереи";
+"profileView.takePhoto.text" = "Сделать фото";
